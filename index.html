@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            limegreen: 'hsl(75, 94%, 57%)',
+            grey: {
+              700: 'hsl(0, 0%, 20%)',
+              800: 'hsl(0, 0%, 12%)',
+              900: 'hsl(0, 0%, 8%)',
+            },
+          },
+          fontFamily: {
+            inter: ['Inter', 'Arial', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+  <title>Social Media Links Project</title>
+
+</head>
+
+<body class="bg-grey-900 font-inter h-dvh flex flex-col justify-center items-center">
+
+  <main class="bg-grey-800 w-[380px] flex flex-col items-center rounded-xl">
+
+    <section class="flex flex-col items-center my-4 w-full">
+      <img class="rounded-full w-[100px] my-5" src="assets/images/avatar-jessica.jpeg" alt="Foto de Perfil">
+      <h1 class="text-white font-semibold text-2xl mb-2">Jessica Randall</h1>
+
+      <p class="text-limegreen font-semibold mb-5">London, United Kingdom</p>
+      <p class="text-white text-sm mb-4">"Front-end developer and avid reader."</p>
+
+      <ul class="w-[85%]">
+        <li
+          class="bg-grey-700 my-4 py-2.5 text-white flex justify-center font-semibold rounded-xl hover:bg-limegreen hover:text-grey-900">
+          GitHub</li>
+        <li
+          class="bg-grey-700 my-4 py-2.5 text-white flex justify-center font-semibold rounded-xl hover:bg-limegreen hover:text-grey-900">
+          Frontend Mentor</li>
+        <li
+          class="bg-grey-700 my-4 py-2.5 text-white flex justify-center font-semibold rounded-xl hover:bg-limegreen hover:text-grey-900">
+          LinkedIn</li>
+        <li
+          class="bg-grey-700 my-4 py-2.5 text-white flex justify-center font-semibold rounded-xl hover:bg-limegreen hover:text-grey-900">
+          Twitter</li>
+        <li
+          class="bg-grey-700 my-4 py-2.5 text-white flex justify-center font-semibold rounded-xl hover:bg-limegreen hover:text-grey-900">
+          Instagram</li>
+      </ul>
+    </section>
+
+
+  </main>
+
+</body>
+
+</html>
